@@ -24,7 +24,7 @@ public class baseTest {
 	
 	public Properties prop;
 	
-	public ExcelUtil excelUtil;
+	protected ExcelUtil excelUtil;
 	
 	protected LoginPage loginpage;
 	protected AccountPage accountpage;
