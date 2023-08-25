@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-23T20:02:14 IST" name="OpenCartTests" finished-at="2023-08-23T20:03:02 IST" duration-ms="48341">
+    <groups>
+    </groups>
+    <test started-at="2023-08-23T20:02:14 IST" name="RegisterPage" finished-at="2023-08-23T20:03:02 IST" duration-ms="48341">
+      <class name="com.qa.openCart.base.RegisterPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:02:14 IST" name="setup" finished-at="2023-08-23T20:02:23 IST" duration-ms="9310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpRegisterPage()[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:02:23 IST" name="setUpRegisterPage" finished-at="2023-08-23T20:02:25 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRegisterPage -->
+        <test-method signature="submitUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:02:26 IST" name="submitUserRegistration" data-provider="getUserRegistrationData" finished-at="2023-08-23T20:02:38 IST" duration-ms="11767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manickamPROD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badhrachalam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto23manickam.6789@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9849056780]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[badhra123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitUserRegistration -->
+        <test-method signature="submitUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:02:38 IST" name="submitUserRegistration" data-provider="getUserRegistrationData" finished-at="2023-08-23T20:02:49 IST" duration-ms="11375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monikaPROD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manickam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto23monika.6789@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9978534671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mani123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitUserRegistration -->
+        <test-method signature="submitUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:02:50 IST" name="submitUserRegistration" data-provider="getUserRegistrationData" finished-at="2023-08-23T20:03:01 IST" duration-ms="11412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harithaPROD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manickam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[auto23haritha.67889@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9765408763]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[haritha123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitUserRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.openCart.base.RegisterPageTest@4976085]" started-at="2023-08-23T20:03:01 IST" name="teardown" finished-at="2023-08-23T20:03:02 IST" duration-ms="754" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51114}, msedge: {msedgedriverVersion: 116.0.1938.54 (e584466f74bf..., userDataDir: C:\Users\bmani\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 116.0.1938.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.54, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51114}, msedge: {msedgedriverVersion: 116.0.1938.54 (e584466f74bf..., userDataDir: C:\Users\bmani\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 116.0.1938.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+at com.qa.openCart.listeners.TestAllureListener.saveScreenshotPNG(TestAllureListener.java:23)
+at com.qa.openCart.listeners.TestAllureListener.afterInvocation(TestAllureListener.java:100)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:60)
+at org.testng.internal.BaseInvoker.runInvokedMethodListeners(BaseInvoker.java:56)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.openCart.base.RegisterPageTest -->
+    </test> <!-- RegisterPage -->
+  </suite> <!-- OpenCartTests -->
+</testng-results>

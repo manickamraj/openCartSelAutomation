@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.qa.openCart.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.openCart.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="AccountPage(failed)" verbose="4">
+    <classes>
+      <class name="com.qa.openCart.base.AccountPageTest">
+        <methods>
+          <include name="addProductToCartVerification" invocation-numbers="3"/>
+          <include name="acctPageSetUp"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.openCart.base.AccountPageTest -->
+    </classes>
+  </test> <!-- AccountPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
